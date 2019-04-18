@@ -1,5 +1,5 @@
-function produceTipCalculator() {
+function produceTipCalculator(tip) {
   return function(tipCalculator) {
-    return tipCalculator * manufacturePrice;
+    return tipCalculator * tip;
   };
 }
